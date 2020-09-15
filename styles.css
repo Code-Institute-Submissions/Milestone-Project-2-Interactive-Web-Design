@@ -48,6 +48,108 @@ button:hover {
   font-weight: 700;
 }
 
+/* Banner styles */
+.banner-text {
+  font-family: Lobster;
+  font-size: 150px;
+  text-align: center;
+  margin-top: 20%;
+}
+
+.paragraph-text {
+  color: #a8a8a8;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.action-button {
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+.banner-button-text {
+  font-size: 18px;
+}
+
+/* Play section styles */
+.playerContainer {
+  display: border-box;
+}
+
+#name1, #name2 {
+  border-radius: 2rem;
+}
+
+.input-name {
+  text-align: center;
+}
+
+.h1-text {
+  font-size: 36px;
+  font-family: Lobster;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.playerParagraph {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.player1Image, .player2Image {
+  height: 40vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.output {
+  font-family: Lobster;
+  font-size: 30px;
+  text-align: center!important;
+  color: #1F5BFF;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 5%;
+}
+
+/* Footer */
+footer, .fab-group {
+  background-color: white;
+  height: 30vh;
+  width: 100%;
+}
+
+.footer-text {
+  font-size: 18px;
+  color: #282828!important;
+  text-align: center;
+  font-weight: 700;
+  padding-top: 4%;
+}
+
+.fab-group {
+  display: block;
+  text-align: center;
+  padding-top: 4%;
+}
+
+.fab {
+  padding-left: .5em;
+  padding-right: .5em;
+  color: #282828!important;
+}
+
 /* Contact section styles */
 .contactform {
   width: 50%;
