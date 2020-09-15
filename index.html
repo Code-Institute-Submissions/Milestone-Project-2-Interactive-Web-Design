@@ -54,7 +54,39 @@
         
         <!-- Play Section -->
         <section id="play">
-       
+            <div class="container">
+      <h1 class="h1-text">It's roll the dice time!</h1>
+      <div class="row">
+        <div class="col">
+          <div class="playerContainer">
+            <p class="playerParagraph" id="playerParagraph1">Player 1</p>
+            <img class="player1Image" src="assets/Image_1.png" alt="Player 1 image!">
+          </div>
+          <div class="input-name" id="input-name1">
+            <label for="name1">Please enter your name:</label>
+            <input type="text" id="name1" name="name1">
+          </div>
+        </div>
+        <div class="col">
+          <div class="playerContainer">
+            <p class="playerParagraph" id="playerParagraph2">Player 2</p>
+            <img class="player2Image" src="assets/Image_1.png" alt="Player 2 image!">
+            <div class="input-name" id="input-name2">
+              <label for="name2">Please enter your name:</label>
+              <input type="text" id="name2" name="name2">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="action-button">
+          <button onclick="rollFunction()">Roll!</button>
+        </div>
+        <div class="row">
+          <p id="output" class="output"></p>
+        </div>
+      </div>
+    </div>
         </section>
         <!-- Play Section END -->
 
@@ -77,7 +109,31 @@
 
         <!-- Contact Section -->
         <section id="contact">
- 
+            <div class="container">
+                <h1 class="h1-text">Get in touch!</h1>
+                <div class="contactform">
+                    <form class="needs-validation" novalidate>
+                        <div class="form-group" id="form_group">
+                        <label for="emailaddress">Email address:</label>
+                        <input required type="email" class="form-control" id="emailaddress" placeholder="name@example.com">
+                        <div class="invalid-feedback">
+                        Please enter correct email address.
+                        </div>
+                        <label for="subject">Subject:</label>
+                        <textarea required class="form-control" id="subjectArea" rows="1"></textarea>
+                        <div class="invalid-feedback">
+                        Please add Subject.
+                        </div>
+                        <label for="message">Message:</label>
+                        <textarea required class="form-control" id="messageArea" rows="3"></textarea>
+                        <div class="invalid-feedback">
+                        Please enter a message.
+                        </div>
+                        <button type="submit" class="action-button">Send!</button>
+                    </div>
+                    </form>
+                </div>
+    </div>
         </section>
         <!-- Contact Section END -->
 
