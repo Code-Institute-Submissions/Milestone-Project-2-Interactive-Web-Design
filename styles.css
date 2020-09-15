@@ -182,3 +182,94 @@ label {
   border-radius: 30px;
   font-size: 18px;
 }
+
+/* Media Queries */
+/* Medium devices (tablets, 1000px and below) */
+@media (max-width: 1000px) {
+  .banner-text {
+    font-size: 110px;
+    margin-top: 30%;
+  }
+  .action-button {
+    width: 30%;
+    margin-top: 10%;
+  }
+  #myBtn {
+    width: 6%;
+  }
+}
+
+
+/* Medium devices (tablets, 800px and below) */
+@media (max-width: 800px) {
+  .action-button {
+    width: 40%;
+  }
+  .player1Image, .player2Image  {
+    height: 30vh;
+    margin-top: 15%;
+  }
+  #myBtn {
+    width: 10%;
+  }
+}
+
+/* Small devices (575px and below) */
+@media (max-width: 575px) {
+  .banner-text {
+    font-size: 70px;
+    margin-top: 40%;
+  }
+  .action-button {
+    width: 40%;
+    margin-top: 20%;
+    font-size: 20px;
+  }
+  .paragraph-text {
+    font-size: 20px;
+    margin-top: 8%;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  .player1Image, .player2Image  {
+    height: 15vh;
+    margin-top: 15%;
+  }
+  label {
+    font-size: 14px;
+  }
+  .output {
+    font-size: 20px;
+    }
+  #name1, #name2 {
+    width: 50%;
+  }
+  #myBtn {
+    width: 10%;
+  }
+}
+
+/* Small devices, above 320px and below 480px -iPhone 4 and 4S (portrait and landscape) */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px) {
+    .banner-text {
+      font-size: 55px;
+    }
+    .action-button {
+      width: 60%;
+      margin-top: 30%;
+    }
+    .paragraph-text {
+      margin-top: 10%;
+      margin-right: 15%;
+      margin-left: 15%;
+    }
+    #myBtn {
+      width: 15%;
+    }
+    .contactform {
+      width: 80%;
+    }
+  }
+
