@@ -1,0 +1,69 @@
+/* General Styles + Layout */
+body {
+  font-family: 'Roboto', sans-serif; /* Default body font style */
+  background-color: #282828!important; /* Default body background color */
+}
+
+#home, #play, #about, #contact {
+  height: 100vh;
+  max-height: 1080px;
+  background-size: cover;
+  background-position: center;
+} /* Dimensions and set up of each section by ID */
+
+#play, #about, #contact {
+  padding-top: 5%;
+}
+
+h1 {
+  color: white;
+}
+
+button {
+  background-color:white;
+  width: 100%;
+  border: 1.4px solid;
+  border-color: transparent;
+  border-radius: 50px!important;
+  padding: 12px 30px;
+}
+
+button:hover {
+  border-color:#1F5BFF;
+  background-color:white;
+  color: #1F5BFF;
+  font-weight: 700;
+}
+
+/* Navigation styles */
+.nav-link {
+  font-weight: 300;
+  font-size: 18px;
+  color: white!important;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.nav-link:hover {
+  font-weight: 700;
+}
+
+/* Contact section styles */
+.contactform {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label {
+  font-size: 18px;
+  color: white;
+  margin-top: 7%;
+  margin-bottom: 1%;
+}
+
+.form-control {
+  border: 1.4px solid;
+  border-color: white;
+  border-radius: 2rem!important;
+}
