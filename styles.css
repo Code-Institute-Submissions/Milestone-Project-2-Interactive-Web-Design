@@ -78,10 +78,6 @@ button:hover {
 }
 
 /* Play section styles */
-.playerContainer {
-  display: border-box;
-}
-
 #name1, #name2 {
   border-radius: 2rem;
 }
