@@ -43,22 +43,22 @@ Features Left to Implement
 2. Buttons: tested that button links are not broken and redirect as expected.
 3. Input fields: tested input fields validation.
 
-  - Player names input fields: run by the JS function rollFunction https://github.com/ernestina404/Milestone-Project-2-Interactive-Web-Design/blob/master/script.js
-  1. Proceeded to click on the roll the dice button without inserting any value for the names input fields > error message "Please enter your names!" appears.
-  2. Inserted a value for one of the fields only > error message "Please enter your names!" appears.
-  3. Created an automated test using the Jasmine Framework to ensure the names are not defined when starting the game > https://github.com/ernestina404/Milestone-Project-2-Interactive-Web-Design/blob/master/Testing_Jasmine/specs/testing.js
+  1. Player names input fields: run by the JS function rollFunction https://github.com/ernestina404/Milestone-Project-2-Interactive-Web-Design/blob/master/script.js
+    - Proceeded to click on the roll the dice button without inserting any value for the names input fields > error message "Please enter your names!" appears.
+    - Inserted a value for one of the fields only > error message "Please enter your names!" appears.
+    - Created an automated test using the Jasmine Framework to ensure the names are not defined when starting the game > https://github.com/ernestina404/Milestone-Project-2-Interactive-Web-Design/blob/master/Testing_Jasmine/specs/testing.js
   
-  - Input fields on the form
-  1. Clicked on the "Send" button without filling in any of the input fields > error messages appeared under each fields indicating a value is expected.
-  2. Inserted a value for one field only > error messages for the unfilled fields appeared indicating a value is expected.
-  3. Inserted values for two of the three fields only > error message for the unfilled field appeared indicating a value is expected.
-  4. For the email field type, inserted a text value without folling the format example@domain.com > error message appeared indicating the email address is incorrect.
+  2. Input fields on the form
+    - Clicked on the "Send" button without filling in any of the input fields > error messages appeared under each fields indicating a value is expected.
+    - Inserted a value for one field only > error messages for the unfilled fields appeared indicating a value is expected.
+    - Inserted values for two of the three fields only > error message for the unfilled field appeared indicating a value is expected.
+    - For the email field type, inserted a text value without folling the format example@domain.com > error message appeared indicating the email address is incorrect.
   
 4. Button to roll the dice running on the JS function rollFunction: used the Jasmine framework to conduct tests on making sure the number of the dice is a random number between 1-6 > https://github.com/ernestina404/Milestone-Project-2-Interactive-Web-Design/blob/master/Testing_Jasmine/specs/testing.js.
-  1. Clicking the button numerous times to ensure all numbers randomly generated are between 1-6 - fixed a bug on rendering 7 with adding an if statement on the diceNumber JS function.
-  2. Ensured the random number is correctly concatenated within the function to render the respective image, i.e. number 5 would render an image respective to a dice of 5. 
-  3. Ensured the respective message pops up to inform on the winner. 
-  4. Ensured the player names are not removed from the page unless the page is reloaded, to allow for the players to run through as many rounds as they wish. A new game is triggered upon refreshing the page.
+  - Clicking the button numerous times to ensure all numbers randomly generated are between 1-6 - fixed a bug on rendering 7 with adding an if statement on the diceNumber JS function.
+  - Ensured the random number is correctly concatenated within the function to render the respective image, i.e. number 5 would render an image respective to a dice of 5. 
+  - Ensured the respective message pops up to inform on the winner. 
+  - Ensured the player names are not removed from the page unless the page is reloaded, to allow for the players to run through as many rounds as they wish. A new game is triggered upon refreshing the page.
 
 5. Back to top button: ensured the back to top button is hidden by default and only appears as scroll through the site.
 
