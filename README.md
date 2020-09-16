@@ -38,7 +38,7 @@ Features Left to Implement
 
 # Testing
 
-* Features
+## Features
 1. Navigation: tested that the links in the navigation are not broken and work as expected.
 2. Buttons: tested that button links are not broken and redirect as expected.
 3. Player names input fields validation: run by the JS function rollFunction https://github.com/ernestina404/Milestone-Project-2-Interactive-Web-Design/blob/master/script.js
@@ -60,10 +60,12 @@ Features Left to Implement
 
 6. Back to top button: ensured the back to top button is hidden by default and only appears as scroll through the site.
 
-* Responsiveness
+## Responsiveness
+
 Ensured the website appears responsive and users are able to have a seamless experience while on a desktop, tablet and mobile - solution implemented through media queries here https://github.com/ernestina404/Milestone-Project-2-Interactive-Web-Design/blob/master/styles.css
 
-* HTML & CSS Validation
+## HTML & CSS Validation
+
 Ensured there are no HTML & CSS errors through testing on https://validator.w3.org/ and https://jigsaw.w3.org/css-validator/. Corrected the errors and some of the warnings - other css warnings were left unchanged to maintain the overall goal on the appearance of the site.
 
 
